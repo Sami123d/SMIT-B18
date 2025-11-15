@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form SignIn</title>
+</head>
+
+<body>
+  <h1>Saylani Signin Form</h1>
+  <form>
+    <label>
+      Username:
+      <input type="text" maxlength="10" name="username" placeholder="write username here" />
+
+    </label>
+
+    <p>Password:
+      <input type="password" maxlength="10" name="password">
+
+    </p>
+    <label> Description:
+      <textarea name="for user Description" rows="2"></textarea>
+    </label>
+    <p>Gender
+
+      <br />
+      Male: <input type="radio" checked="checked" name="gender" value="male">
+
+      Female: <input type="radio" name="gender" value="female">
+    </p>
+    <p>Please select your favorite music service(s):
+      <br />
+      <input type="checkbox" name="service" value="itunes" checked="checked" /> iTunes
+      <input type="checkbox" name="service" value="lastfm" /> Last.fm
+      <input type="checkbox" name="service" value="spotify" /> Spotify
+    </p>
+    <p>
+      add your education certificates:
+      <br/>
+      <input type="file">
+    </p>
+  </form>
+  <br />
+
+  <button type="submit">Sign in</button>
+  </form>
+</body>
+
+</html>

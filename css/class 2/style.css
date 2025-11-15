@@ -1,0 +1,51 @@
+/* Type selector */
+/* li  {
+  color: green;
+} */
+
+/* Class selector */
+/* .note {
+color: blue
+} */
+/* 
+span.note {
+  color: blue;
+} */
+
+/* id selector */
+
+ /* #unique {
+  border: 1px solid brown;
+ } */
+
+
+ /* child selector */
+
+/* li>.note {
+  background-color: yellow;
+} */
+
+/* Descendant selector */
+
+/* div li, div p {
+  background-color: cadetblue;
+} */
+
+/* h1+p {
+  color: chocolate;
+} */
+
+/* h1~p {
+  background-color: yellow;
+} */
+
+/* * {
+  border:1px solid gray
+} */
+
+div {
+  background-color: rgb(0, 128, 0);
+  opacity: 1.0;
+  color: black;
+
+}

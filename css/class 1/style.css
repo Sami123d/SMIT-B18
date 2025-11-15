@@ -1,0 +1,33 @@
+/* universal selector */
+/* * {
+  color: purple;
+  border: 1px solid red
+} */
+
+/* type selector
+ */
+ /* h1 , #unique {
+  background-color: pink;
+ } */
+
+
+/* id selector */
+ /* #unique {
+  color: blue;
+ } */
+
+
+ /* class selector */
+ /* .blueColor {
+  color: blue;
+ } */
+
+ /* div.blueColor {
+  color: blue;
+ } */
+
+ /* li {
+  color: blue;
+ } */
+
+ 
