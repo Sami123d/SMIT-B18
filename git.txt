@@ -1,0 +1,20 @@
+GIT AND GITHUB STEPS
+
+check version / download git or not ==>  git --version
+
+
+
+1) credential managers ===> purane bhai ka  github address remove 
+
+2) github ===> new repository
+
+3) folder ko cmd pr open kronga
+
+4) isky bad first ye command run kronga:
+
+git config --global user.name "Sami"
+git config --global user.email "sami@example.com"
+
+5 )baki sari command jo github repo ne di vo main run kronga      
+
+
