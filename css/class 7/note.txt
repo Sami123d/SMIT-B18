@@ -1,0 +1,3 @@
+border: ===> box ky corners pr
+
+margin:  ====> box ky bahar ki  jagah

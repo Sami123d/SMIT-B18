@@ -2,8 +2,6 @@ GIT AND GITHUB STEPS
 
 check version / download git or not ==>  git --version
 
-
-
 1) credential managers ===> purane bhai ka  github address remove 
 
 2) github ===> new repository
