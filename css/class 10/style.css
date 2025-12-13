@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: auto;
+  background-color: #eff2fd;
+}
+#main-heading {
+  text-align: center;
+  font-size: 28px;
+  font-style: oblique;
+  margin: 13px 10px 50px 10px;
+}
+
+#main-heading span {
+    border-bottom: 2px solid purple;
+}
+.form-container {
+
+}
+input {
+  font-size: 17px;
+  display: block;
+  color: rgba(246, 186, 3, 0.96);
+  background-color: #000000ee;
+  border: 2px solid purple;
+  width: 200px;
+  margin: 0 auto 15px auto;
+  border-radius: 3px;
+  padding: 2px 4px 2px 22px;
+}
+
+/* input:focus {
+background-color: #ffbdbd; 
+} */
+input:hover {
+  border: 2px solid #ff1313;
+  /* background-color: rgb(164, 163, 163); */
+}
+
+button{
+  cursor:pointer;
+  display: block;
+  width: 80px ;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#name {
+  background-image: url("./assets/star.png");
+  background-repeat: no-repeat;
+  background-position: 5px 6px;
+  background-size: 13px;
+}
