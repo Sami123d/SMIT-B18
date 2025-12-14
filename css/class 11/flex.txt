@@ -1,0 +1,18 @@
+Display: flex;  ===>  parent pr lagana hai
+
+
+for ===> horizontal align
+justify-content: center;
+justify-content: space-between;
+
+for == >Vertical align
+align-items:center ;
+
+Gap ===> in between elements
+gap: 20px;
+
+flex direction ====> use to change direction of elemens
+Flex-direction:column;
+Flex-direction:row;
+flex-direction:row-reverse;
+flex-direction:column-reverse;
