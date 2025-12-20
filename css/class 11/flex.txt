@@ -6,13 +6,16 @@ justify-content: center;
 justify-content: space-between;
 
 for == >Vertical align
-align-items:center ;
+align-items: center ;
 
 Gap ===> in between elements
 gap: 20px;
 
-flex direction ====> use to change direction of elemens
+flex direction ====> use to change direction of elements
 Flex-direction:column;
 Flex-direction:row;
 flex-direction:row-reverse;
 flex-direction:column-reverse;
+
+flex-wrap: wrap === > ye property wrap krti hai content ko 
+flex-wrap: no-wrap ===> wrap nh krega or scroller ayega
