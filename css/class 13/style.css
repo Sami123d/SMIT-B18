@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: rgb(252, 252, 210);
+  display: flex;
+  
+  /* flex-direction: row-reverse; */
+}
+
+.container > div {
+  background-color: rgb(179, 255, 0);
+  width: 150px;
+  height: 50px;
+  border: 2px solid white;
+  /* flex-grow: 1; */
+}
+/* .container > div:nth-child(4) {
+  order: 1;
+} */
+
+/* .noman {
+  flex-grow: 1;
+}
+.salman {
+  flex-grow: 1;
+}
+
+.aqdas {
+  flex-grow: 1;
+}
+#seven {
+  order: -1;
+}
+ #six {
+  order: -1;
+ }
+#four {
+  order: 2;
+}
+
+#five {
+  order: 3;
+}
+
+.salman, .noman, .aqdas, .rafay, .adil {
+  display: flex;
+    justify-content: center;
+align-items: center;
+} */
+
+.noman {
+  flex-shrink: 2;
+}
+.search {
+  
+  flex-basis: 500px;
+  /* flex-shrink: 5; */
+  /* flex-grow: 1; */
+}
