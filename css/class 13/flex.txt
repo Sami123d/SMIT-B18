@@ -1,7 +1,9 @@
-display: flex;   ===> parent pr lgta ha sare childrens flex krdeta hai
+                                              -6    -5 -4 -3 -2 -1 0 1 2 3 4 5 6
 
-justify-content: space-between; ==> horizontally space 
+FLEX-ITEMS PROPERTIES ELEMENT PR HI LGTI HAIN
 
-align-items: center; ===> vertically space => center, end, start
+order ===>  property se ham elements ka order change kr skte hain.
 
-but
+flex-grow ===> property jis item pr hogi vo remaining sb sapce lelega
+
+flex-shrink ====> property jis item pr hogi vo sb se pehly shrink(chota) hoga
