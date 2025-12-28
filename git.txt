@@ -14,5 +14,10 @@ git config --global user.name "Sami"
 git config --global user.email "sami@example.com"
 
 5 )baki sari command jo github repo ne di vo main run kronga      
-
+git init 
+git add .
+git commit -m "message here"
+git branch -m main
+git remote add origin  "repo link here"
+git push -u origin main
 

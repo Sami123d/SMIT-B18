@@ -1,0 +1,11 @@
+*  position: static==>  kisi bhi elemnt ki by default position static hoti hai.
+   top, left, right and bottom ====> ye sb property static pr kam nhi krta hai.
+
+* positon: relative ==> agar relative lagi ho to or ap "top:10px" ye element apni normal poisition  top se 10px move hojayega.
+
+* position: absolute ==> agar absolute value lagi ho to vo apni jagah chordega or view port ky hisab se direction lega
+
+* position: fixed ===> agar ye value ho to posiiton browser window ky hisab se fixed hojayegi
+
+
+* position: sticky ==> fixed and relatve ka mixed up hai. agar "top: 0" laga ho to ye jesy h top touch krega element vaha fixed hojayega
