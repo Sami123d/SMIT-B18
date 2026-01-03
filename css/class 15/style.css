@@ -1,0 +1,80 @@
+/* Mobile Brakpoint: 0px - 767px ===== tablet breakpoint: 768px -1023px */
+/* laptop breakpoint: 1024px + */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+/* mobile */
+/* @media (min-width: 0px) and (max-width: 767px) {
+.container {
+  background-color: blue;
+}
+} */
+/* tablet */
+/* @media (min-width: 768px) and (max-width: 1023px) {
+  .container {
+  background-color: green;
+}
+
+
+} */
+/* laptop */
+/* @media (min-width: 1024px) {
+.container {
+  background-color: pink;
+}
+} */
+
+.container {
+  display: flex;
+  gap: 15px;
+  /* min-width: 600px;
+  max-width: 1000px; */
+  border: 1px solid black;
+  /* height: 500px; */
+}
+
+.box {
+  text-align: center;
+  width: 50%;
+  height: 300px;
+  background-color: rgb(179, 179, 179);
+}
+
+/* mobile 0 - 767px */
+@media (max-width: 767px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .box {
+    width: 100%;
+    
+  }
+
+  .lptp-box1 {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+   .mbl-box1 {
+    display: none;
+  }
+}
+
+/* @media (min-width: 300px) and ( max-width: 500px) {
+  .container { 
+    background-color: blue;
+
+  }
+} */
+
+/* @media (min-width: 501px) {
+  .container {
+    background-color: chocolate;
+  }
+} */
