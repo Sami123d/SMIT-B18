@@ -30,7 +30,9 @@
 
 .container {
   display: flex;
-  gap: 15px;
+  position: relative;
+  gap: 55px;
+  background-color: pink;
   /* min-width: 600px;
   max-width: 1000px; */
   border: 1px solid black;
@@ -42,8 +44,20 @@
   width: 50%;
   height: 300px;
   background-color: rgb(179, 179, 179);
+  opacity: 1;
 }
-
+.childbox1 { 
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  position: relative;
+  z-index: -1;
+  right: 0;
+}
+.laptop-box1 {
+  position: relative;
+  z-index: 0;
+}
 /* mobile 0 - 767px */
 @media (max-width: 767px) {
   .container {
@@ -78,3 +92,30 @@
     background-color: chocolate;
   }
 } */
+
+
+#red {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+ z-index: 3;
+}
+
+
+#green {
+  position: absolute;
+  left: 150px;
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  z-index: 2;
+}
+
+#blue {
+  position: absolute;
+  left: 300px;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  z-index: 1;
+}

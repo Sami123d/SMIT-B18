@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: bisque;
+}
+
+.parent {
+  height: 90vh;
+  display: grid;
+  grid-template-columns:600px auto 300px ;
+  gap: 20px;
+}
+
+.child {
+  background-color: lightblue;
+  /* width: 200px;
+  height: 200px; */
+border: 1px solid rgb(0, 47, 255);
+font-size: 50px;
+text-align: center;
+}
+
+
+@media (max-width: 767px) {
+   .close-icon {
+    display: block;
+   }
+}
+
+@media (min-width: 768px) {
+   .close-icon {
+    display: none !important;
+   }
+}
