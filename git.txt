@@ -21,3 +21,9 @@ git branch -m main
 git remote add origin  "repo link here"
 git push -u origin main
 
+6) clone git repo code in our pc:
+
+git clone https://github.com/Sami123d/SMIT-B18.git
+
+
+
