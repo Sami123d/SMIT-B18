@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.img-Container {
+  width: 380px;
+  height: 600px;
+}
+
+
+
+
+/* img:hover {
+  transform:  rotate(360deg);
+
+} */
+
+
+
+.container {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: purple;
+    transition: 3s;
+    /* by default scale width and height = 1 */
+  
+}
+.box:hover {
+
+  background-color: yellow;
+      /* transform:  scale(0.5, 0.5); */
+      
+               /* x-axis , y-axis */
+      /* transform: translate(100%, 100%); */
+           transform: rotate(180deg);
+             /* transform: translate(900px, 100px); */
+}
+
+
+/* input {
+  margin: 100px;
+  background-color: blue;
+ width: 130px;
+ border-radius: 20px;
+ height: 50px;
+ color: white;
+ font-size: 22px;
+ border: 1px solid blue;
+ transition: 0.5s;
+}
+
+input:hover {
+    background-color: white;
+   color: blue;
+} */
+
+.containerTwo {
+ width: 100vw;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: black;
+}
+.fanparent {
+  width: 400px;
+  height: 400px;
+}
+img {
+  width: 100%;
+  height: 100%;
+  /* transition: 3s; */
+  /* transition-duration: 3s; */
+  
+  animation-name: UncleRotate ; 
+  animation-duration:10s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  /* animation-delay: 5s; */
+    transform-origin: center;
+}
+@keyframes UncleRotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  /* 50% {
+    transform: rotate(-3600deg);
+  } */
+  100% {
+    transform: rotate(3600deg);
+  }
+}
+.boxAnimate {
+  margin: 30px;
+  width: 300px;
+  height: 100px;
+  border: 2px solid black;
+  /* animation-name: AnimateBox;
+  animation-duration:3s;
+  animation-direction:none;
+  animation-iteration-count:infinite;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both; */
+
+
+
+}
+
+/* .box1 .box3{
+  animation-duration: 5s;
+}
+.box2{
+  animation-duration: 4s;
+}
+.box4 {
+  animation-duration: 2.5s;
+}
+.box5{
+  animation-duration: 3.5s;
+} */
+
+/* .box1 {
+  animation-timing-function: ease;
+}
+.box2{
+  animation-timing-function: linear;
+}
+
+.box3 {
+  animation-timing-function: ease-in-out;
+}
+
+.box4 {
+  animation-timing-function: ease-in;
+}
+.box5{
+  animation-timing-function: ease-out;
+} */
+@keyframes AnimateBox {
+  0%{
+    transform: translateX(0%);
+  }
+
+  100%{
+    transform: translateX(520%);
+  }
+}

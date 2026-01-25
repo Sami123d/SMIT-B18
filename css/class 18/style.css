@@ -13,11 +13,11 @@ img {
   width: 100%;
   height: 100%;
   transition: 3s;
-    transform-origin: left;
+    transform-origin: center;
 }
 
 img:hover {
-  transform:  rotate(180deg);
+  transform:  rotate(360deg);
 
 }
 
@@ -41,10 +41,10 @@ img:hover {
 .box:hover {
 
   background-color: yellow;
-      transform:  scale(0, 0);
+      /* transform:  scale(0.5, 0.5); */
       
                /* x-axis , y-axis */
-      /* transform: translate(250%); */
+      /* transform: translate(100%, 100%); */
            /* transform: rotate(360deg); */
              /* transform: translate(900px, 100px); */
 }
