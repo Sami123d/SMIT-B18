@@ -1,0 +1,13 @@
+Javascript --> JavaScript is a programming language that makes websites interactive and dynamic
+
+alert() ==> alert ek function hai jo user ko msg show krta hai
+
+var ===> koi bhi information ko store krvane ky lye
+
+var Course = Web n App Development
+
+var Address = Numaish Campus
+
+var timing = 6 to 9
+
+console.log("hello")
