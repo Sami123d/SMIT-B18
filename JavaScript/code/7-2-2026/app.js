@@ -32,4 +32,4 @@ console.log(charity)
 var bigDonor = 1222020
 
 var saylaniBank = charity + 1000 + bigDonor;
-console.log("saylani bank hai :" , "+" , saylaniBank)
+console.log("saylani bank hai :" ,  saylaniBank)
