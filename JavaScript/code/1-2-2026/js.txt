@@ -1,5 +1,9 @@
 Javascript --> JavaScript is a programming language that makes websites interactive and dynamic
 
+text ===> string
+
+camelCase === > myNameIs
+
 alert() ==> alert ek function hai jo user ko msg show krta hai
 
 var ===> koi bhi information ko store krvane ky lye
