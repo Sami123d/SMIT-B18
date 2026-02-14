@@ -6,10 +6,10 @@ var myHomeAddress = "Sami Ahmed lorem Lorem ipsum dolor sit amet consectetu";
 
 console.log(myHomeAddress) //
 
-var courseTime; //undefined
+var courseTime; //declare variable
 console.log(courseTime);
 
-courseTime = 'saturday 6 to 9';
+courseTime = 'saturday 6 to 9'; /// assign value
 console.log(courseTime)
 courseTime = "sunday 6 to 9"
 

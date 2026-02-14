@@ -25,11 +25,11 @@ console.log(firstName - lastName)  //NaN ===> Not A Number
 
 
 var num = "1";  //string
-var num2 = "2";   //num
+var num2 = 2;   //num
 
 // internal process: num ki type change krega
 
-console.log(num - num2);
+console.log(num - num2, "num + num2");
 
 var MultiplyNum = 2 * 2 ;
 console.log(MultiplyNum);
@@ -41,7 +41,7 @@ console.log(MultiplyNum);
 
 
 // % modulus operator
-var divideNum = "3" / 2;
+var divideNum = 3 / 2;
 console.log(divideNum);
 
 var modulus = 10 % 3;

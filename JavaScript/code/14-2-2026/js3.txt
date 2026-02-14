@@ -1,0 +1,11 @@
+
+increment == > plus
+
+decrement ==> minus
+
+var num = 10
+
+num++  //increment // 10    //afterward increment // ek line ky baat plus hoga
+++num   // same line increment
+
+

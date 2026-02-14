@@ -14,3 +14,15 @@ TYPE CORESION
 "1" * 3 ====> 3
 
 "sami"  * 3 ====> NaN
+
+
+Modulus Operator ===> %
+biscuits ko person main divide krta hun to remainder ===> 0
+
+
+
+biscuits = 5
+
+person  = 10 
+
+ 10 % 5 =====> remainder ====> 0  

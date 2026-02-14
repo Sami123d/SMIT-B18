@@ -8,9 +8,9 @@ alert() ==> alert ek function hai jo user ko msg show krta hai
 
 var ===> koi bhi information ko store krvane ky lye
 
-var Course = Web n App Development
+var courseName = Web n App Development
 
-var Address = Numaish Campus
+var address = Numaish Campus
 
 var timing = 6 to 9
 
