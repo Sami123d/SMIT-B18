@@ -1,0 +1,26 @@
+JAVASCRIPT VARIABLES
+
+oldest version === > ES5 ===> var name = "sami";
+*var ===> redeclare ===> initialize/reassign ==> value change  ===> sb krne dunga
+
+var sirName = "sami";
+
+sirName = "sir sami";
+
+var sirName = "Ahmed";
+console.log(sirName) //ahmed
+
+MODERN VERSION==> ES6 ===> let, const
+
+*let ====> redeclare nhi krne dunga ===> initialize/reassign ==> value change  ===> krne dunga
+
+let address = "numaish campus";
+
+let address = "bahadurabad campus" XXXX ERROR redeclare nhi krne dunga
+
+address = "bahadurabad"
+
+*const ===> redeclare ===> initialize/reassign ==> value change  ===> kuch nhi krne dunga ===> just declare
+
+const password = "admin123";
+
