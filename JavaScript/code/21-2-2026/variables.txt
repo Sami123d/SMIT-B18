@@ -2,7 +2,7 @@ JAVASCRIPT VARIABLES
 
 oldest version === > ES5 ===> var name = "sami";
 *var ===> redeclare ===> initialize/reassign ==> value change  ===> sb krne dunga
-
+var sirName;
 var sirName = "sami";
 
 sirName = "sir sami";

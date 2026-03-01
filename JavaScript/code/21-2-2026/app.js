@@ -1,6 +1,6 @@
 // es5 variable
 var sirName; //INITIALIZE
-var sirName = "sami";//declare
+var sirName = "sami";//assign value 
 
 console.log(sirName)
 // alert("welcome to saylani");
