@@ -1,0 +1,15 @@
+db => collection => documents => data
+
+use database_name
+show dbs
+db.createCollection('collectionName')
+show collections
+db.old_name.renameCollection("new name")
+db.collectionName.drop()
+db.dropDatabase()
+db.help()
+db.collection.help()
+db.collectionName.insertOne({})
+db.collectionName.insertMany([{}])
+db.collectionName.updateOne({}) => $set , $unset , $rename , $inc , $mul , $currentDate
+db.collectionName.updateMany({})
