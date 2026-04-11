@@ -29,13 +29,12 @@
 
 //3rd
 
-// function itemOpen3 (user) {
-// console.log(`${user} login successfull...`)
-// }
-// var username = prompt("enter your name")
-// itemOpen3(username)
+function calculate (add, add2, mul) {
+   return add+ add2 * mul
 
-
+}
+var order1 = calculate(1, 1, 2)
+console.log(order1)
 //return keyword
 
 function login () {

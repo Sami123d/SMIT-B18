@@ -1,0 +1,16 @@
+functions ==> reusable block of code
+
+function myName () {
+
+}
+
+function call ===>   myName()
+
+function a call and argument send ===> myName()
+
+
+return keyword
+
+return ===> return baad next code work nhi krta 
+
+return ===> return krne pr value vaha jati hai jaha function call ho rha hota hai
