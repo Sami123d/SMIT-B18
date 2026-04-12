@@ -1,0 +1,17 @@
+FOR LOOP IN JAVASCRIPT: 
+
+Loop ==>  someone continuosly running
+
+iteration: process of repeating circles
+
+
+function repeat() {
+    console.log("running")
+};
+for (var i = 1; i <= 5; i++) {
+
+  repeat()
+}
+initialize the variable,
+condition
+increment / decrement

@@ -3,13 +3,15 @@ ARRAY IN JAVASCRIPT :
 In JavaScript, an array is an ordered collection of values that allows you to store multiple items under a single variable name. 
 
 index number:   0      1     2
-var students = ["a", "b", "c"]    //length 3
+let students = ["a", "b", "c"]    //length 3
+students.length = 3
+
+students[0] = "a"
 
 ARRAY METHODS
 
 slice =====> use method copy one or more element in any position and return a new array 
 students.slice(start index, end length)
-
 
 push ====>    you can add one or more elements to the end of an array.
 
@@ -18,3 +20,5 @@ pop  ====>    you can remove element to the end of an array.
 shift ====>     you can remove an element from the start of an array
 
 unshift ====> you can add an elements from the start of an array
+
+split ====> 
