@@ -8,10 +8,17 @@ iteration: process of repeating circles
 function repeat() {
     console.log("running")
 };
-for (var i = 1; i <= 5; i++) {
+for (var i = 0; i <= 4; i++) {
 
   repeat()
 }
+
+
 initialize the variable,
 condition
 increment / decrement
+
+
+break  --- > end loop
+
+continue --- > continue loop
