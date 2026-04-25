@@ -6,7 +6,7 @@
 
 
 
-// for (var i = 1; i <= 5; i++) {
+// for (var i = 1; i < 5; i++) {
 
 //   repeat()
 // }
@@ -37,22 +37,22 @@
 //   alert("It's one of the cleanest cities" + cleanestCities[4]);
 // }
 
-// var cityToCheck = "Karachi";
+var cityToCheck = "Karachi";
 
-// var cleanestCities = ["islamabad", "Karachi", "Umerkot", "Larkana", "Lahore"];
+var cleanestCities = ["islamabad", "Karachi", "Umerkot", "Larkana", "Lahore"];
 
-// var matchFound = "no";
+var matchFound = "no";
 
-// for (var i = 0; i<=4; i++) {
-//   if(cityToCheck === cleanestCities[i]){
-//     matchFound = "yes";
-//     console.log(`It's one of the cleanest cities in parallel universe ${cleanestCities[i]}`);
-//   }
-// }
+for (var i = 0; i<=4; i++) {
+  if(cityToCheck === cleanestCities[i]){
+    matchFound = "yes";
+    console.log(`It's one of the cleanest cities in parallel universe ${cleanestCities[i]}`);
+  }
+}
 
-// if(matchFound === "no") {
-// console.log("cleanset cities not found")
-// }
+if(matchFound === "no") {
+console.log("cleanset cities not found")
+}
 
 
 var userDemand = "biryani";
