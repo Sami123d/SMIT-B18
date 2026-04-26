@@ -1,0 +1,24 @@
+var dice = 0;
+
+if ( dice === 1) {
+console.log("dice one")
+}else if(dice === 2){
+console.log("dice two")
+}else{
+console.log("dice is bigger")
+}
+
+var dice="one"
+
+switch (dice) {
+case "one":{
+console.log("dice one")
+break;}
+case "two":{
+console.log("dice two")
+break;
+}
+}default:{
+console.log("dice is bigger")
+}
+}

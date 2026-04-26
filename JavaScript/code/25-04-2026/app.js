@@ -1,17 +1,17 @@
 //for loops nested
 
-// var restaurant = ["biryani", "pulao", "korma", "nihari", "karahi"];
-// console.log(restaurant.length)
-// var drinks = ["cola next", "sting", "Fizzup"];
+var restaurant = ["biryani", "pulao", "korma", "nihari", "karahi"];
+console.log(restaurant.length)
+var drinks = ["cola next", "sting", "Fizzup"];
 
-// for (var i = 0; i < 3; i++) {
+for (var i = 0; i < 5; i++) {
+console.log(restaurant[i])
+  for (var j = 0; j < 3; j++) {
 
-//   for (var j = 0; j < 5; j++) {
-
-//     // console.log(drinks[j], "-----j")
-//     console.log("hum de rhy hain apko " + restaurant[j] + " or drink main " + drinks[i])
-//   }
-// }
+    // console.log(drinks[j], "-----j")
+    console.log("hum de rhy hain apko " + restaurant[i] + " or drinks main " + drinks[j])
+  }
+}
 
 //print star
 // *
@@ -25,7 +25,7 @@
 //    console.log(i, "outer loop")
 //    let row = ""
 //    for (var j=0; j<5; j++){
-//     row = row + j
+//     row = row + "*"
 //     console.log(row)
 //    }
 // }
@@ -58,17 +58,22 @@ var classes = [
   "ahsan",
   "125",
 ];
-// console.log(classes)
+console.log(classes)
 
 //object
 var person = {
   name: "adil",
   age: 28,
   rollNo: "568",
+  siblings: ["a", "b" , "c"],
   maritalStatus: "single",
+  isOpentoWork: function () {
+   return console.log("i am open to work as a mern stack developer")
+  }
 };
+console.log(person.isOpentoWork())
 
-// array of object
+// array of objects
 
 var classArr = [
   {
@@ -97,7 +102,9 @@ var classArr = [
     status: "married",
   },
 ];
+
 // document.write(person.name);
+
 console.log(classArr)
 console.log(classArr[1])
 document.write(classArr[0].name + "</br>");
